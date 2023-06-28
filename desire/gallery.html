@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="fonts/stylesheet.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+    <title>Gallery</title>
+</head>
+<body>
+    <header class="header">
+        <div class="wrapper flex">
+            <ul class="header_left list_reset flex">
+                <li class="header_left_item header_item_about"><a href="about.html">About</a></li>
+                <li class="header_left_item header_item_gallery bb1px"><a href="gallery.html">Gallery</a></li>
+                <li class="header_left_item cp"><a href="index.html"><img src="img/logo.svg" alt="Logo"></a></li>
+            </ul>
+              <ul class="header_right list_reset flex">
+                <li class="header_right_item header_item_blog"><a href="blog.html">Blog</a></li>
+                <li class="header_right_item header_item_contact"><a href="contact.html">Contact</a></li>
+                <li class="header_right_item cp"><img src="img/menu.svg" alt=""></li>
+            </ul>
+        </div>
+    </header>
+    
+    <main>
+
+   <section class="home_link_gallery">
+       <div class="container">
+           <div class="home_link_gallery_content flex">
+            <div class="home_link_span flex">
+                <a class="home_link" href="index.html">Home/</a>
+                <span class="gallery_us_span">Gallery</span>
+            </div>
+           </div>
+       </div>
+   </section>
+
+<section class="gallery_tabs">
+    <div class="container gallery_tabs_container">
+        <div class="tab flex">
+            <button class="tablinks" onclick="openCity(event, 'London')">Bedroom furniture</button>
+            <button class="tablinks" onclick="openCity(event, 'Paris')">Living room furniture</button>
+            <button class="tablinks" onclick="openCity(event, 'Tokyo')">Office furniture</button>
+            <button class="tablinks" onclick="openCity(event, 'Tallinn')">Dining room futniture</button>
+            <button class="tablinks" onclick="openCity(event, 'Riga')">Chair</button>
+        </div>
+          
+          <!-- Tab content -->
+          <div id="London" class="tabcontent tabcontent_first flex"> 
+               <div class="tabs gallery_tabs flex">
+              <div class="gallery_tab_top flex">
+                <div class="tabcontent_left gallery_tab_left_top"></div>
+                <ul class="tabcontent_right gallery_tab_right_top flex list_reset">
+                     <li class="tabcontent_right_item tabcontent_chair"></li> 
+                     <li class="tabcontent_right_item tabcontent_table"></li>
+                     <li class="tabcontent_right_item tabcontent_chairs tabcontent_bottom"></li>
+                     <li class="tabcontent_right_item tabcontent_sofa tabcontent_bottom"></li>
+                </ul>
+    
+              </div>
+             <div class="gallery_tab_bottom flex">
+                <ul class="tabcontent_right gallery_tab gallery_tab_right_top list_reset flex">
+                     <li class="tabcontent_right_item tabcontent_chair"></li> 
+                     <li class="tabcontent_right_item tabcontent_table"></li>
+                     <li class="tabcontent_right_item tabcontent_chairs tabcontent_bottom"></li>
+                     <li class="tabcontent_right_item tabcontent_sofa tabcontent_bottom"></li>
+                </ul>
+                <div class="tabcontent_left gallery_tab_left_bottom"></div>
+                
+             </div>
+   
+               </div>
+          </div>
+
+          <div id="Paris" class="tabcontent active flex"> 
+            <div class="tabs gallery_tabs flex">
+           <div class="gallery_tab_top flex">
+             <div class="tabcontent_left  gallery_tab_left_top"></div>
+             <ul class="tabcontent_right gallery_tab_right_top flex list_reset">
+                  <li class="tabcontent_right_item tabcontent_chair"></li> 
+                  <li class="tabcontent_right_item tabcontent_table"></li>
+                  <li class="tabcontent_right_item tabcontent_chairs tabcontent_bottom"></li>
+                  <li class="tabcontent_right_item tabcontent_sofa tabcontent_bottom"></li>
+             </ul>
+ 
+           </div>
+          <div class="gallery_tab_bottom flex">
+             <ul class="tabcontent_right gallery_tab gallery_tab_right_top list_reset flex">
+                  <li class="tabcontent_right_item tabcontent_chair"></li> 
+                  <li class="tabcontent_right_item tabcontent_table"></li>
+                  <li class="tabcontent_right_item tabcontent_chairs tabcontent_bottom"></li>
+                  <li class="tabcontent_right_item tabcontent_sofa tabcontent_bottom"></li>
+             </ul>
+             <div class="tabcontent_left gallery_tab_left_bottom"></div>
+             
+          </div>
+
+            </div>
+       </div>
+
+       <div id="Tokyo" class="tabcontent flex"> 
+        <div class="tabs gallery_tabs flex">
+       <div class="gallery_tab_top flex">
+         <div class="tabcontent_left gallery_tab_left_top"></div>
+         <ul class="tabcontent_right gallery_tab_right_top flex list_reset">
+              <li class="tabcontent_right_item tabcontent_chair"></li> 
+              <li class="tabcontent_right_item tabcontent_table"></li>
+              <li class="tabcontent_right_item tabcontent_chairs tabcontent_bottom"></li>
+              <li class="tabcontent_right_item tabcontent_sofa tabcontent_bottom"></li>
+         </ul>
+
+       </div>
+      <div class="gallery_tab_bottom flex">
+         <ul class="tabcontent_right gallery_tab gallery_tab_right_top list_reset flex">
+              <li class="tabcontent_right_item tabcontent_chair"></li> 
+              <li class="tabcontent_right_item tabcontent_table"></li>
+              <li class="tabcontent_right_item tabcontent_chairs tabcontent_bottom"></li>
+              <li class="tabcontent_right_item tabcontent_sofa tabcontent_bottom"></li>
+         </ul>
+         <div class="tabcontent_left gallery_tab_left_bottom"></div>
+         
+      </div>
+
+        </div>
+   </div>
+
+   <div id="Tallinn" class="tabcontent flex"> 
+    <div class="tabs gallery_tabs flex">
+   <div class="gallery_tab_top flex">
+     <div class="tabcontent_left gallery_tab_left_top"></div>
+     <ul class="tabcontent_right gallery_tab_right_top flex list_reset">
+          <li class="tabcontent_right_item tabcontent_chair"></li> 
+          <li class="tabcontent_right_item tabcontent_table"></li>
+          <li class="tabcontent_right_item tabcontent_chairs tabcontent_bottom"></li>
+          <li class="tabcontent_right_item tabcontent_sofa tabcontent_bottom"></li>
+     </ul>
+
+   </div>
+  <div class="gallery_tab_bottom flex">
+     <ul class="tabcontent_right gallery_tab gallery_tab_right_top list_reset flex">
+          <li class="tabcontent_right_item tabcontent_chair"></li> 
+          <li class="tabcontent_right_item tabcontent_table"></li>
+          <li class="tabcontent_right_item tabcontent_chairs tabcontent_bottom"></li>
+          <li class="tabcontent_right_item tabcontent_sofa tabcontent_bottom"></li>
+     </ul>
+     <div class="tabcontent_left gallery_tab_left_bottom"></div>
+     
+  </div>
+
+    </div>
+</div>
+
+<div id="Riga" class="tabcontent flex"> 
+  <div class="tabs gallery_tabs flex">
+ <div class="gallery_tab_top flex">
+   <div class="tabcontent_left gallery_tab_left_top"></div>
+   <ul class="tabcontent_right gallery_tab_right_top flex list_reset">
+        <li class="tabcontent_right_item tabcontent_chair"></li> 
+        <li class="tabcontent_right_item tabcontent_table"></li>
+        <li class="tabcontent_right_item tabcontent_chairs tabcontent_bottom"></li>
+        <li class="tabcontent_right_item tabcontent_sofa tabcontent_bottom"></li>
+   </ul>
+
+ </div>
+<div class="gallery_tab_bottom flex">
+   <ul class="tabcontent_right gallery_tab gallery_tab_right_top list_reset flex">
+        <li class="tabcontent_right_item tabcontent_chair"></li> 
+        <li class="tabcontent_right_item tabcontent_table"></li>
+        <li class="tabcontent_right_item tabcontent_chairs tabcontent_bottom"></li>
+        <li class="tabcontent_right_item tabcontent_sofa tabcontent_bottom"></li>
+   </ul>
+   <div class="tabcontent_left gallery_tab_left_bottom"></div>
+   
+</div>
+
+  </div>
+</div>
+   
+   
+   
+   
+        </div>
+</section>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+    </main>
+
+
+    
+    
+    
+    <footer class="footer">
+        <div class="container">
+               <div class="footer_top flex">
+                  <ul class="footer_top_contacts flex list_reset">
+                     <li class=".footer_top_contacts_item">
+                        <h5 class="footer_contacts_title">Contact Us</h5>
+                     </li>
+                     <li class="footer_top_contacts_item">
+                        <p class="footer_contacts_descr">Keffiyeh poutine etsy, paleo cray put a&nbsp;bird on&nbsp;it&nbsp;microdosing schlitz you probably occupy</p>
+                     </li>
+                     <li class="footer_top_contacts_item">
+                        <a href="mailto:example@example.com" class="footer_contacts_email">ouremailaddress@email.com</a>
+                     </li>
+                     <li class="footer_top_contacts_item contacts_intp_btn">
+                        <input class="form_input input_contacts" type="text" name="email" placeholder="Subscribe by email" required>
+                        <button class="footer_contacts_btn">Send</button>
+                     </li>
+                  </ul>
+                  <ul class="footer_top_social list_reset">
+                      <li class="footer_social_item"><a class="footer_social_link social_link_facebook" href="#">Facebook</a></li>
+                      <li class="footer_social_item"><a class="footer_social_link social_link_insta" href="#">Instagram</a></li>
+                      <li class="footer_social_item"><a class="footer_social_link social_link_pint" href="#">Pinterest</a></li>
+                      <li class="footer_social_item"><a class="footer_social_link social_link_whatsapp" href="#">WhatsApp</a></li>
+                      <li class="footer_social_item"><a class="footer_social_link social_link_youtube" href="#">Youtube</a></li>
+                  </ul>
+                  <ul class="footer_top_other flex list_reset">
+                    <li class="footer_other_item"><a class="footer_other_link" href="#">Delivery</a></li>
+                    <li class="footer_other_item"><a class="footer_other_link" href="#">FAQ</a></li>
+                    <li class="footer_other_item"><a class="footer_other_link" href="#">Help</a></li>
+                    <li class="footer_other_item"><a class="footer_other_link" href="#">More About Us</a></li>
+                  </ul>
+               </div>
+               <div class="footer_bottom">
+                <address class="footer_address">
+                      <p class="address">674 Gonzales Drive.   Washington, PA 15301</p>
+                </address>
+               </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
